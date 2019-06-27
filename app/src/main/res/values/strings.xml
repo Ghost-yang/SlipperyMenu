@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">GVMenu</string>
+    <string name="channel_home">Home</string>
+
+    <string name="channel_back">Back</string>
+
+    <string name="channel_menu">Menu</string>
+
+    <string name="channel_task">Task</string>
+
+    <string name="channel_setting">Settings</string>
+
+    <string name="channel_postil">Postil</string>
+
+    <string name="channel_source">"Signal Source"</string>
+
+    <string name="channel_meeting">MeetingPad</string>
+
+    <string name="channel_ops">OPS</string>
+
+    <string name="channel_hdmi_fr">Front HDMI</string>
+
+    <string name="channel_hdmi_00">HDMI</string>
+
+    <string name="channel_hdmi_01">HDMI 1</string>
+
+    <string name="channel_hdmi_02">HDMI 2</string>
+
+    <string name="channel_dp">DP</string>
+
+    <string name="channel_vga">VGA</string>
+
+    <string name="channel_video">CVBS</string>
+
+    <string name="channel_color">YPbPr</string>
+
+    <string name="channel_bright">Light</string>
+
+    <string name="channel_volume">Vol</string>
+
+    <string name="channel_preview">Preview</string>
+
+    <string name="channel_unsignal">NO SIGNAL</string>
+
+    <string name="channel_Toast">Exit Comment Mode</string>
+
+    <string name="str_confirm">Confirm</string>
+
+    <string name="str_version_text">"Text Version "</string>
+
+    <string name="str_Message">This product is provided by Shenzhen Kaijiada,test use only, do not used for other commercial purposes. n Thank you for using this product!!!!</string>
+
+    <string name="add">+10</string>
+
+    <string name="minus">-10</string>
+
+    <string name="wifi_5g">5G</string>
+
+    <string name="wifi_2.4g">2.4G</string>
+</resources>

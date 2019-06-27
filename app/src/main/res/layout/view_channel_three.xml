@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/mainlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_channel"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@id/ll_channel_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@id/tv_channel_home"
+            style="@style/TextStyleLarge"
+            android:layout_marginLeft="60.0dip"
+            android:drawableLeft="@drawable/ic_home"
+            android:text="@string/channel_home" />
+
+        <TextView
+            android:id="@id/tv_channel_back"
+            style="@style/TextStyleLarge"
+            android:layout_marginLeft="60.0dip"
+            android:drawableLeft="@drawable/ic_back"
+            android:text="@string/channel_back" />
+
+        <TextView
+            android:id="@id/tv_channel_menu"
+            style="@style/TextStyleLarge"
+            android:layout_marginLeft="60.0dip"
+            android:drawableLeft="@drawable/ic_menu"
+            android:text="@string/channel_menu" />
+
+        <TextView
+            android:id="@id/tv_channel_task"
+            style="@style/TextStyleLarge"
+            android:layout_marginLeft="60.0dip"
+            android:drawableLeft="@drawable/ic_task"
+            android:text="@string/channel_task" />
+
+        <TextView
+            android:id="@id/tv_text"
+            style="@style/TextStyleLarge"
+            android:layout_marginLeft="60.0dip"
+            android:text="书写白板测试"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@id/layout_wifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="375.0dip"
+            android:layout_marginRight="40.0dip"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@id/wifi_swith"
+                android:layout_width="wrap_content"
+                android:layout_height="20.0dip"
+                android:layout_marginLeft="1.0dip"
+                android:layout_marginTop="10.0dip"
+                android:maxHeight="27.0dip"
+                android:padding="2.0dip"
+                android:switchMinWidth="60.0dip"
+                android:textSize="6.0dip"
+                android:thumb="@drawable/switch_bg"
+                android:track="@drawable/track_bg" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1.0dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@id/tv_wifi_2g"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:text="@string/wifi_2.4g"
+                    android:textColor="@color/white"
+                    android:textSize="12.0sp" />
+
+                <TextView
+                    android:id="@id/tv_wifi_5g"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:text="@string/wifi_5g"
+                    android:textColor="@color/white"
+                    android:textSize="12.0sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@id/tv_channel_postil"
+            android:layout_width="120.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="410.0dip"
+            android:drawableLeft="@drawable/ic_postil"
+            android:gravity="center"
+            android:text="@string/channel_postil"
+            android:textColor="@drawable/color_text"
+            android:textSize="18.0sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_divider_01" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="60.0dip"
+            android:layout_height="fill_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@id/tv_channel_source"
+                style="@style/TextStyleLarge"
+                android:layout_width="60.0dip"
+                android:layout_height="wrap_content"
+                android:drawableBottom="@drawable/ic_source"
+                android:drawablePadding="40.0dip"
+                android:text="@string/channel_source" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_divider_02" />
+
+        <LinearLayout
+            android:layout_width="580.0dip"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@id/tv_channel_meeting"
+                    style="@style/TextStyle"
+                    android:layout_width="0.0dip"
+                    android:layout_weight="1.0"
+                    android:drawableTop="@drawable/ic_meeting"
+                    android:text="@string/channel_meeting" />
+
+                <TextView
+                    android:id="@id/tv_channel_ops"
+                    style="@style/TextStyle"
+                    android:layout_width="0.0dip"
+                    android:layout_weight="1.0"
+                    android:drawableTop="@drawable/ic_ops"
+                    android:text="@string/channel_ops" />
+
+                <TextView
+                    android:id="@id/tv_channel_hdmi_01"
+                    style="@style/TextStyle"
+                    android:layout_width="0.0dip"
+                    android:layout_weight="1.0"
+                    android:drawableTop="@drawable/ic_hdmi"
+                    android:text="@string/channel_hdmi_01" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@id/tv_channel_hdmi_02"
+                    style="@style/TextStyle"
+                    android:layout_width="0.0dip"
+                    android:layout_weight="1.0"
+                    android:drawableTop="@drawable/ic_hdmi"
+                    android:text="@string/channel_hdmi_02" />
+
+                <TextView
+                    android:id="@id/tv_channel_dp"
+                    style="@style/TextStyle"
+                    android:layout_width="0.0dip"
+                    android:layout_weight="1.0"
+                    android:drawableTop="@drawable/ic_dp"
+                    android:text="@string/channel_dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@id/tv_channel_vga"
+                    style="@style/TextStyle"
+                    android:layout_width="0.0dip"
+                    android:layout_weight="1.0"
+                    android:drawableTop="@drawable/ic_vga"
+                    android:text="@string/channel_vga" />
+
+                <TextView
+                    android:id="@id/tv_channel_video"
+                    style="@style/TextStyle"
+                    android:layout_width="0.0dip"
+                    android:layout_weight="1.0"
+                    android:drawableTop="@drawable/ic_input"
+                    android:text="@string/channel_video" />
+
+                <TextView
+                    android:id="@id/tv_channel_color"
+                    style="@style/TextStyle"
+                    android:layout_width="0.0dip"
+                    android:layout_weight="1.0"
+                    android:drawableTop="@drawable/ic_input"
+                    android:text="@string/channel_color" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_divider_02" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="70.0dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@id/tv_channel_bright"
+                    style="@style/TextStyleLarge"
+                    android:layout_width="110.0dip"
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_marginRight="15.0dip"
+                    android:drawableRight="@drawable/ic_bright"
+                    android:text="@string/channel_bright" />
+
+                <SeekBar
+                    android:id="@id/sb_channel_bright"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20.0dip"
+                    android:maxHeight="8.0dip"
+                    android:minHeight="8.0dip"
+                    android:progressDrawable="@drawable/sb_channel"
+                    android:thumb="@drawable/sb_thumb2" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_divider_03" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="70.0dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@id/tv_channel_volume"
+                    style="@style/TextStyleLarge"
+                    android:layout_width="110.0dip"
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_marginRight="15.0dip"
+                    android:drawableRight="@drawable/ic_volume"
+                    android:text="@string/channel_volume" />
+
+                <SeekBar
+                    android:id="@id/sb_channel_volume"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20.0dip"
+                    android:maxHeight="8.0dip"
+                    android:minHeight="8.0dip"
+                    android:progressDrawable="@drawable/sb_channel"
+                    android:thumb="@drawable/sb_thumb2" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_divider_03" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@id/tv_channel_Preview"
+                    style="@style/TextStyleLarges"
+                    android:layout_width="110.0dip"
+                    android:layout_marginLeft="15.0dip"
+                    android:drawableRight="@drawable/ic_preview"
+                    android:text="@string/channel_preview" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@id/tv_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="30.0dip"
+                android:layout_marginLeft="30.0dip"
+                android:layout_marginRight="30.0dip"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@id/sv_channel_preview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="30.0dip"
+                    android:layout_marginLeft="30.0dip"
+                    android:layout_marginRight="30.0dip"
+                    android:text="@string/channel_unsignal"
+                    android:textSize="40.0dip"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="surfaceParams_width">300.0dip</dimen>
+    <dimen name="surfaceParams_height">162.0dip</dimen>
+</resources>

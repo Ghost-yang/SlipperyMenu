@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="mainlayout" />
+    <item type="id" name="ll_channel_top" />
+    <item type="id" name="tv_channel_home" />
+    <item type="id" name="tv_channel_back" />
+    <item type="id" name="tv_channel_menu" />
+    <item type="id" name="tv_channel_task" />
+    <item type="id" name="tv_text" />
+    <item type="id" name="layout_wifi" />
+    <item type="id" name="wifi_swith" />
+    <item type="id" name="tv_wifi_2g" />
+    <item type="id" name="tv_wifi_5g" />
+    <item type="id" name="tv_channel_postil" />
+    <item type="id" name="tv_channel_meeting" />
+    <item type="id" name="tv_channel_ops" />
+    <item type="id" name="tv_channel_hdmi_01" />
+    <item type="id" name="tv_channel_hdmi_02" />
+    <item type="id" name="tv_channel_dp" />
+    <item type="id" name="tv_channel_bright" />
+    <item type="id" name="sb_channel_bright" />
+    <item type="id" name="tv_channel_volume" />
+    <item type="id" name="sb_channel_volume" />
+    <item type="id" name="tv_channel_hdmi_03" />
+    <item type="id" name="tv_channel_vga" />
+    <item type="id" name="tv_channel_video" />
+    <item type="id" name="tv_channel_color" />
+    <item type="id" name="tv_channel_Preview" />
+    <item type="id" name="tv_layout" />
+    <item type="id" name="sv_channel_preview" />
+    <item type="id" name="tv_channel_source" />
+</resources>
